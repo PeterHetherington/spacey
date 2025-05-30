@@ -2,7 +2,6 @@ header {
   display: flex;
   flex-direction: row;
   text-transform: uppercase;
-  /* background-image: url('https://i0.wp.com/spacenews.com/wp-content/uploads/2019/06/30934147078_d3fc6602fb_k.jpg?fit=2048%2C1152&ssl=1'); */
   background-image: url("images/spacex-head.jpeg");
   background-position: center;
   background-size: cover;
@@ -62,13 +61,11 @@ section{
 .nav {
     background-color: transparent;
     color: white;
-    display: block;
     white-space: nowrap;
 }
 
 .navbar {
     display:flex;
-    /* position: relative; */
     width: 100%;
     height: 5%;
     max-width: 1400px;
@@ -82,7 +79,6 @@ section{
 }
 
 /* hide navbar on mobile display */
-/* I didn't like the whitespace it was creasing on mobile displays */
 @media only screen and (max-width: 878px) {
     .nav{
         display: none;
@@ -113,17 +109,14 @@ section{
 }
 
 .section1 {
-    /* background-image: url('https://techcrunch.com/wp-content/uploads/2020/03/starlink1_vertical_18.jpg?w=1024'); */
     background-image: url("images/s1.jpeg");
 }
 
 .section2 {
-    /* background-image: url('https://blogs.nasa.gov/commercialcrew/wp-content/uploads/sites/230/2019/01/2_DM1_sunset_06_DSC_3795.jpg'); */
     background-image: url("images/s2.jpeg");
 }
 
 .section3 {
-    /* background-image: url('https://polarisprogram.com/wp-content/uploads/2024/05/SPACEX_EVA_Qual_Suit_v1.jpg'); */
     background-image: url("images/s3.jpeg");
 }
 
@@ -145,7 +138,7 @@ section{
 
 .home-content {
     position: absolute;
-    bottom: 150px;
+    bottom: 75px;
     left: 50px;
 }
 
@@ -166,14 +159,6 @@ section{
     color: grey;
 }
 
-/* .footer-link {
-    margin: 5%;
-} */
-
-.copyright {
-    margin: 5%;
-}
-
 .btt {
     display: flex;
     justify-content: center;
@@ -191,6 +176,11 @@ section{
     text-transform: uppercase;
     justify-content: center;
     align-items: center;
+}
+
+.btt-btn:hover {
+    border-color: white;
+    color: white;
 }
 
 .icons {
