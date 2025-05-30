@@ -1,0 +1,202 @@
+header {
+  display: flex;
+  flex-direction: row;
+  text-transform: uppercase;
+  /* background-image: url('https://i0.wp.com/spacenews.com/wp-content/uploads/2019/06/30934147078_d3fc6602fb_k.jpg?fit=2048%2C1152&ssl=1'); */
+  background-image: url("images/spacex-head.jpeg");
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+  width: 100%;
+  margin: 0;
+  position: relative;
+}
+
+html {
+    margin: 0;
+    border:0;
+    scroll-behavior: smooth;
+}
+
+main {
+  background: black;
+  min-height: 200px;
+  text-transform: uppercase;
+  margin: 0;
+}
+
+footer {
+  background: black;
+  height: 100px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  text-transform: uppercase;
+}
+
+body {
+    color: white;
+    font-family: sans-serif;
+    margin: 0;
+}
+
+h1{
+    margin-top: 0;
+    margin-right: 10px;
+}
+
+nav {
+    margin-top: 8px;
+    flex-wrap: nowrap;
+}
+
+section{
+    background-size: cover;
+    background-position: center;
+    height: 110vh;
+    align-content: center;
+    position: relative;
+    display:block;
+}
+
+.nav {
+    background-color: transparent;
+    color: white;
+    display: block;
+    white-space: nowrap;
+}
+
+.navbar {
+    display:flex;
+    /* position: relative; */
+    width: 100%;
+    height: 5%;
+    max-width: 1400px;
+    margin: 0 auto;
+    text-align: left;
+    padding-top: 50px;
+    justify-content: center;
+    position: sticky;
+    top: 0;
+
+}
+
+/* hide navbar on mobile display */
+/* I didn't like the whitespace it was creasing on mobile displays */
+@media only screen and (max-width: 878px) {
+    .nav{
+        display: none;
+    }
+}
+
+.logo {
+    color: white;
+    display: flex;
+    width: fit-content;
+}
+
+.button {
+    border-color: white;
+    border: 2px solid;
+    background-color: transparent;
+    color: white;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding: 1rem 2rem 1rem 2rem;
+    justify-content: left;
+}
+
+.button:hover {
+    background-color: white;
+    color: black;
+    border-color: white;
+}
+
+.section1 {
+    /* background-image: url('https://techcrunch.com/wp-content/uploads/2020/03/starlink1_vertical_18.jpg?w=1024'); */
+    background-image: url("images/s1.jpeg");
+}
+
+.section2 {
+    /* background-image: url('https://blogs.nasa.gov/commercialcrew/wp-content/uploads/sites/230/2019/01/2_DM1_sunset_06_DSC_3795.jpg'); */
+    background-image: url("images/s2.jpeg");
+}
+
+.section3 {
+    /* background-image: url('https://polarisprogram.com/wp-content/uploads/2024/05/SPACEX_EVA_Qual_Suit_v1.jpg'); */
+    background-image: url("images/s3.jpeg");
+}
+
+.section4 {
+    background-image: url("images/deathstar.jpeg");
+}
+
+.section5 {
+    background-image: url("images/jack-8.png");
+}
+
+.large-title {
+    color: white;
+}
+
+.nav-item:hover {
+    text-decoration: underline;
+}
+
+.home-content {
+    position: absolute;
+    bottom: 150px;
+    left: 50px;
+}
+
+.nav-item {
+    padding: 15px;
+    color: white;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.content {
+    position: absolute;
+    left: 50px;
+    bottom: 150px;
+}
+
+.footer-link:hover {
+    color: grey;
+}
+
+/* .footer-link {
+    margin: 5%;
+} */
+
+.copyright {
+    margin: 5%;
+}
+
+.btt {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+}
+
+.btt-btn {
+    border-color: gray;
+    border: 2px solid;
+    border-radius: 20px;
+    background-color: transparent;
+    color: gray;
+    font-weight: bold;
+    text-transform: uppercase;
+    justify-content: center;
+    align-items: center;
+}
+
+.icons {
+    width: 20px;
+}
+
+.small-title {
+    font-weight: 600;
+}
