@@ -66,16 +66,15 @@ section{
 
 .navbar {
     display:flex;
-    width: 100%;
+    width: 100vw;
     height: 5%;
-    max-width: 1400px;
     margin: 0 auto;
     text-align: left;
     padding-top: 50px;
     justify-content: center;
-    position: sticky;
+    position: fixed;
     top: 0;
-
+    z-index: 1;
 }
 
 /* hide navbar on mobile display */
