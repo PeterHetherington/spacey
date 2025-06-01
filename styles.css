@@ -70,14 +70,25 @@ section{
     z-index: 1;
 }
 
-/* hide navbar on mobile display */
 @media only screen and (max-width: 878px) {
-    .nav{
+    /* hide navbar on mobile display */
+    .nav {
         display: none;
     }
 
-    .navbar{
+    /* ensure logo doesnt overlap main content */
+    .navbar {
         position: absolute;
+    }
+
+    /* increase logo size for more space coverage */
+    .logo {
+        font-size: 50px;
+    }
+
+    /* ensure text content isn't lost to the background image when changing display size */
+    .section-home {
+        background-position: -50vw;
     }
 }
 
@@ -92,7 +103,7 @@ section{
     border: 2px solid;
     background-color: transparent;
     color: white;
-    font-weight: bold;
+    font-weight: 800;
     text-transform: uppercase;
     padding: 1rem 2rem 1rem 2rem;
     justify-content: left;
@@ -116,7 +127,7 @@ section{
 }
 
 .section3 {
-    background-image: url("images/s3.jpeg");
+    background-image: url("images/spacex-suit1.jpeg");
 }
 
 .section4 {
@@ -134,12 +145,6 @@ section{
 .nav-item:hover {
     text-decoration: underline;
 }
-
-/* .home-content {
-    position: absolute;
-    bottom: 75px;
-    left: 50px;
-} */
 
 .nav-item {
     padding: 15px;
