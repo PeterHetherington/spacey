@@ -15,7 +15,7 @@ Stretch requirements met:
 - Created a basic footer with social media icons which link to spacex social pages
 
 Other:
-- I could have made the website more responsive; probably would have started with a mobile display size & built up from there if i was to start again.
-- This was my first attempt at making a nav bar from scratch, previously having used only bootstrap, so this was the most difficult task.
-- css-tricks was useful & I discovered the "white-space" property which came in handy in fixing an error of my navbar wrapping as the display shrank. However this then caused a whitespace issue on smaller displays so I used a media query to hide the culprit (navbar) on smaller displays.
+- I could have made the website more responsive; probably would have started with a mobile display & built up from there if i was to start again.
+- The most difficult task was getting the navbar position right & getting it to behave how I want it to.
+- css-tricks was useful & I discovered the "white-space" property which came in handy in fixing an error of my navbar wrapping as the display shrank. However this then caused a whitespace issue on smaller displays so I used a media query to hide the culprit (navbar) on smaller displays only.
 - The background image choice was not the best in some sections due to the white text sometimes getting lost, again on smaller displays, but I wanted to remain close to the source doc (spacex.com), so persisted with the white text.

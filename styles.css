@@ -2,13 +2,6 @@ header {
   display: flex;
   flex-direction: row;
   text-transform: uppercase;
-  background-image: url("images/spacex-head.jpeg");
-  background-position: center;
-  background-size: cover;
-  height: 100vh;
-  width: 100%;
-  margin: 0;
-  position: relative;
 }
 
 html {
@@ -82,6 +75,10 @@ section{
     .nav{
         display: none;
     }
+
+    .navbar{
+        position: absolute;
+    }
 }
 
 .logo {
@@ -107,6 +104,9 @@ section{
     border-color: white;
 }
 
+.section-home {
+    background-image: url("images/spacex-head.jpeg");
+}
 .section1 {
     background-image: url("images/s1.jpeg");
 }
@@ -135,11 +135,11 @@ section{
     text-decoration: underline;
 }
 
-.home-content {
+/* .home-content {
     position: absolute;
     bottom: 75px;
     left: 50px;
-}
+} */
 
 .nav-item {
     padding: 15px;
@@ -150,8 +150,8 @@ section{
 
 .content {
     position: absolute;
-    left: 50px;
-    bottom: 150px;
+    left: 10vw;
+    bottom: 30vh;
 }
 
 .footer-link:hover {
